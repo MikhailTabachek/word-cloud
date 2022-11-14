@@ -19,13 +19,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.cloud-space{
+  background-color: rgb(27, 26, 26);
+  height: 75vh;
+  width: 110rem;
 }
 
 @keyframes App-logo-spin {
